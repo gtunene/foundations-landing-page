@@ -15,7 +15,7 @@ body{
 }
 
 header {
-    padding: 10px 70px;
+    padding: 10px 150px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header ul li{
 }
 
 .underheader{
-    padding: 10px 70px;
+    padding: 10px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +78,7 @@ h3{
 
 .quote
 {
-    padding: 10px 70px;
+    padding: 10px 150px;
     background-color: rgb(76, 79, 82);
 
 }
@@ -89,7 +89,7 @@ h3{
 
 .calltoaction{
     background-color:green;
-    margin: 10px 70px;
+    margin: 10px 150px;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -113,6 +113,6 @@ button{
 footer{
     background-color: darkslategray;
     margin: 10px 0px;
-    padding: 30px 70px;
+    padding: 30px 150px;
     text-align: center;
 }
