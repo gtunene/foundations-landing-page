@@ -1,0 +1,118 @@
+/* body > div:nth-last-child(1){
+    background-color: aqua;
+    min-height: 30px;
+} */
+
+header, .underheader{
+    background-color:darkslategray;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    padding: 10px 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+header ul li{
+    display: inline;
+    margin: 5px;
+}
+
+.underheader{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+
+.underheader .left{
+    width: 50%;
+}
+
+.img-placeholder{
+    margin: 0 auto;
+    background-color:rgb(76, 79, 82);
+    display: flex;
+    width: 50%;
+    aspect-ratio: 16 / 9;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.illustrationsimages{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.illustrationsimages div
+{
+    width: 100px;
+    text-align: center;
+}
+
+.illustrationsimages div div{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    aspect-ratio: 1 / 1.2;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+}
+
+.quote
+{
+    padding: 10px 70px;
+    background-color: rgb(76, 79, 82);
+
+}
+
+.quote p:nth-child(2){
+    text-align: end;
+}
+
+.calltoaction{
+    background-color:green;
+    margin: 10px 70px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.calltoaction button
+{
+    width: 70px;
+}
+
+button{
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    border: solid 1px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: darkslategray;
+    margin: 10px 0px;
+    padding: 30px 70px;
+    text-align: center;
+}
